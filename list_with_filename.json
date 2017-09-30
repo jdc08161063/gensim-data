@@ -1,0 +1,71 @@
+{
+  "model": {
+    "Google_News_word2vec": {
+      "desc": "Google has published pre-trained vectors trained on part of Google News dataset (about 100 billion words). The model contains 300-dimensional vectors for 3 million words and phrases.",
+      "filename": "GoogleNews-vectors-negative300.bin.gz",
+      "checksum": "4fa963d128fe65ec8cd5dd4d9377f8ed"
+    },
+    "fasttext_eng_model": {
+      "desc": "fastText is a library for efficient learning of word representations and sentence classification.These vectors for english language in dimension 300 were obtained using the skip-gram model described in Bojanowski et al. (2016) with default parameters.",
+      "filename": "wiki.en.vec",
+      "checksum": "2de532213d7fa8b937263337c6e9deeb"
+    },
+    "glove_common_crawl_42B": {
+      "desc": "This model is trained on Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.42B.300d.zip",
+      "checksum": "d6f41a6e9e5bf905d349a01b5216826a"
+    },
+    "glove_common_crawl_840B": {
+      "desc": "This model is trained on Common Crawl (840B tokens, 2.2M vocab, cased, 300d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.840B.300d.zip",
+      "checksum": "72f02c239743c750eaea8747839e4852"
+    },
+    "glove_wiki_gigaword_300d": {
+      "desc": " This model is trained on Wikipedia 2014 + Gigaword 56B tokens, 400K vocab, uncased, 300d vectors).GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.6B.300d.txt",
+      "checksum": "e0c1af43ab57753d11da2fa642c3ff82"
+    },
+    "glove_wiki_gigaword_200d": {
+      "desc": "This model is trained on Wikipedia 2014 + Gigaword 56B tokens, 400K vocab, uncased, 200d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.6B.200d.txt",
+      "checksum": "c4e58068e16be476b115699f94fa82cb"
+    },
+    "glove_wiki_gigaword_100d": {
+      "desc": "This model is trained on Wikipedia 2014 + Gigaword 56B tokens, 400K vocab, uncased, 100d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.6B.100d.txt",
+      "checksum": "7067a76b2adc0e92a1f71e2919382c95"
+    },
+    "glove_wiki_gigaword_50d": {
+      "desc": "This model is trained on Wikipedia 2014 + Gigaword 56B tokens, 400K vocab, uncased, 50d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.6B.50d.txt",
+      "checksum": "44d71eb1db9485d9c8a605a5ed560d8c"
+    },
+    "glove_twitter_200d": {
+      "desc": "This model is trained on twitter(2B tweets, 27B tokens, 1.2M vocab, uncased, 200d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.twitter.27B.200d.txt",
+      "checksum": "91b40581d04e2ff5306d2f0452e34f72"
+    },
+    "glove_twitter_100d": {
+      "desc": "This model is trained on twitter(2B tweets, 27B tokens, 1.2M vocab, uncased, 100d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.twitter.27B.100d.txt",
+      "checksum": "2825c182e4ac2afd8d2dede8445919ab"
+    },
+    "glove_twitter_50d": {
+      "desc": "This model is trained on twitter(2B tweets, 27B tokens, 1.2M vocab, uncased, 50d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.twitter.27B.50d.txt",
+      "checksum": "9842275a894ebdfb60b270877bb8f60c"
+    },
+    "glove_twitter_25d": {
+      "desc": "This model is trained on twitter(2B tweets, 27B tokens, 1.2M vocab, uncased, 25d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
+      "filename": "glove.twitter.27B.25d.txt",
+      "checksum": "9802ffec313d8612bf790d1aa4d37ddd"
+    }
+  },
+  "corpus": {
+    "text8": {
+      "desc": "Wikipedia English corpus",
+      "filename": "text8",
+      "checksum": "5d703f1842fb1ca55bf86f2e2552012c"
+    }
+  }
+}

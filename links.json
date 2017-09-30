@@ -1,0 +1,14 @@
+
+{
+	"data_links": {
+		"fasttext_eng_model": {
+			"link": "https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.vec"
+		},
+		"glove_common_crawl_42B":{
+			"link":"http://nlp.stanford.edu/data/glove.42B.300d.zip"
+		},
+		"glove_common_crawl_840B":{
+			"link":"http://nlp.stanford.edu/data/glove.840B.300d.zip"
+		}
+	}
+}
