@@ -60,9 +60,9 @@ For eg:
 For adding a new corpus/model to github releases : 
 1. Add the model/corpus name, description, filename and checksum(of the installed folder) to the [list_with_filename.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/list_with_filename.json)
 2. If the model/corpus will not be stored in th github releases, then add their link to [links.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/links.json)
-3. In [alternate_names.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/alternate_names.json) add the names for the data uing which the user can download the dataset/model. 
-4. Now, to create a tar.gz file which contains the model/corpus file and a __init__.py file. 
-This __init__.py file is for loading the corpus/model and it should contain a function load_data(). 
+3. In [alternate_names.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/alternate_names.json) add the names for the data using which the user can download the dataset/model. 
+4. Now, to create a tar.gz file which contains the model/corpus file(if the model/corpus has to be stored in github releases, else only add ```__init__.py``` file) and a ```__init__.py``` file. 
+This ```__init__.py``` file is for loading the corpus/model and it should contain a function load_data(). 
 For eg, the load function for glove_common_crawl_42B is
 ```python
 from gensim.scripts.glove2word2vec import glove2word2vec
