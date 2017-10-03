@@ -1,0 +1,47 @@
+{
+	"text8": [
+		"text",
+    		"wiki_text8",
+		"text8"
+	],
+	"Google_News_word2vec":[
+		"Google_News_word2vec",
+		"google_news_word2vec"
+	],
+	"fasttext_eng_model":[
+		"fasttext_eng_model",
+		"fasttext_eng"
+	],
+	"glove_common_crawl_42B":[
+		"glove_common_crawl_42B",
+		"glove_common_crawl_42b"
+	],
+	"glove_common_crawl_840B":[
+		"glove_common_crawl_840B",
+		"glove_common_crawl_840b"
+	],
+	"glove_wiki_gigaword_300d":[
+		"glove_wiki_gigaword_300d"
+	],
+	"glove_wiki_gigaword_200d":[
+		"glove_wiki_gigaword_200d"
+	],
+	"glove_wiki_gigaword_100d":[
+		"glove_wiki_gigaword_100d"
+	],
+	"glove_wiki_gigaword_50d":[
+		"glove_wiki_gigaword_50d"
+	],
+	"glove_twitter_200d":[
+		"glove_twitter_200d"
+	],
+	"glove_twitter_100d":[
+		"glove_twitter_100d"
+	],
+	"glove_twitter_50d":[
+		"glove_twitter_50d"
+	],
+	"glove_twitter_25d":[
+		"glove_twitter_25d"
+	]
+}
