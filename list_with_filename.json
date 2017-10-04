@@ -9,19 +9,19 @@
     "fasttext_eng_model": {
       "desc": "fastText is a library for efficient learning of word representations and sentence classification.These vectors for english language in dimension 300 were obtained using the skip-gram model described in Bojanowski et al. (2016) with default parameters.",
       "filename": "wiki.en.vec",
-      "checksum_after_download": "",
+      "checksum_after_download": "e2df21f60a0fde0b2e1ce505a62930d9",
       "checksum_after_installation": "2de532213d7fa8b937263337c6e9deeb"
     },
     "glove_common_crawl_42B": {
       "desc": "This model is trained on Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
       "filename": "glove.42B.300d.zip",
-      "checksum_after_download": "",
+      "checksum_after_download": "fe7447b86ea2b2372a7a4c92b5023bd1",
       "checksum_after_installation": "d6f41a6e9e5bf905d349a01b5216826a"
     },
     "glove_common_crawl_840B": {
       "desc": "This model is trained on Common Crawl (840B tokens, 2.2M vocab, cased, 300d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
       "filename": "glove.840B.300d.zip",
-      "checksum_after_download": "",
+      "checksum_after_download": "8c32b89fddbea259a7ecb1ba145daca9",
       "checksum_after_installation": "72f02c239743c750eaea8747839e4852"
     },
     "glove_wiki_gigaword_300d": {
