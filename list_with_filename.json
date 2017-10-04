@@ -63,7 +63,7 @@
     "glove_twitter_50d": {
       "desc": "This model is trained on twitter(2B tweets, 27B tokens, 1.2M vocab, uncased, 50d vectors). GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.",
       "filename": "glove.twitter.27B.50d.txt",
-      "checksum_after_download": "4e0742ffb99524a4bcd2ca693ef3d12c",
+      "checksum_after_download": "b1b9724af7a6299e73d4623d7a3bb21c",
       "checksum_after_installation": "9842275a894ebdfb60b270877bb8f60c"
     },
     "glove_twitter_25d": {
