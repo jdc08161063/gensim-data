@@ -58,8 +58,9 @@ For eg:
     api.load('text8', return_path=True)
 
 For adding a new corpus/model to github releases : 
+------------------------------------------------
 1. Add the model/corpus name, description, filename and checksum(of the installed folder and downloaded folder) to the [list_with_filename.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/list_with_filename.json)
-2. If the model/corpus will not be stored in th github releases, then add their link to [links.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/links.json)
+2. If the model/corpus will not be stored in the github releases, then add their link to [links.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/links.json)
 3. In [alternate_names.json](https://github.com/RaRe-Technologies/gensim-data/blob/master/alternate_names.json) add the names for the data using which the user can download the dataset/model. 
 4. Now, to create a tar.gz file which contains the model/corpus file(if the model/corpus has to be stored in github releases, else only add ```__init__.py``` file) and a ```__init__.py``` file. 
 This ```__init__.py``` file is for loading the corpus/model and it should contain a function load_data(). 
